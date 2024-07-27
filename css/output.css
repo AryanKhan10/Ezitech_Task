@@ -1172,7 +1172,7 @@ video {
 }
 
 .head{
-  background:url("/img/111.jpg");
+  background:url("../img/111.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   background-position:center;
