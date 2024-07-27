@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.head{
+    background:url("/img/111.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: 47rem;
+    position: relative;
+}
+.activeLink{
+    border-bottom: 0.2rem solid rgb(33, 33, 214);
+}
+.content, .ttl,.inner{
+            object-fit: contain; 
+            position: relative;
+            z-index: 2; 
+            color: white; 
+
+}
+.head::before,.bottomsec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(38 38 173 / 55%); 
+    z-index: 1; 
+}
+
+.card{
+
+    box-shadow: 2px 2px 23px 8px #cdcdcd69;
+    transition:.3s ease;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.top{
+    background-image: url("https://ezitech.org/wp-content/uploads/2024/02/markus-spiske-MI9-PY5cyNs-unsplash-scaled-2559x1706-_FILEminimizer_-1151x767.webp");
+    height: 8rem;
+    /* width: 25%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.top::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(38 38 173 / 55%); 
+    z-index: 1; 
+    border-radius: 1rem 1rem 0 0;
+}
+.circle{
+    width: 23rem;
+    height: 23rem;
+    background-color: blue;
+    position: relative;
+}
+.bottomsec{
+    background-image: url("/img/photo-1461749280684-dccba630e2f6-4-1299x999.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40rem;
+    position: relative;
+}
+.courses{
+    height: 23rem;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+.courses:hover{
+    height: 100%;
+    box-shadow: 2px 2px 23px 8px #cdcdcd69;
+
+}
