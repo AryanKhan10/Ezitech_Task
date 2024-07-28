@@ -83,3 +83,15 @@
     box-shadow: 2px 2px 23px 8px #cdcdcd69;
 
 }
+@media(max-width:965px){
+    #navToggle{
+        transition: all 0.3s ease-in-out;
+        transition-delay: 0.2s;
+    }
+    .wrapper{
+        left: 16rem;
+    }
+    .close{
+        left: 12rem;
+    }
+}
