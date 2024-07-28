@@ -718,10 +718,6 @@ video {
   height: 6rem;
 }
 
-.h-3 {
-  height: 0.75rem;
-}
-
 .h-32 {
   height: 8rem;
 }
@@ -928,15 +924,6 @@ video {
 
 .border-b-2 {
   border-bottom-width: 2px;
-}
-
-.border-e-2 {
-  border-inline-end-width: 2px;
-}
-
-.border-sky-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(125 211 252 / var(--tw-border-opacity));
 }
 
 .border-white {
@@ -1200,6 +1187,10 @@ video {
 
 .activeLink{
   border-bottom: 0.2rem solid rgb(33, 33, 214);
+}
+
+#auto-type{
+  color:rgb(36, 125, 184)
 }
 
 .content, .ttl,.inner{
