@@ -612,6 +612,10 @@ video {
   top: 0px;
 }
 
+.top-3 {
+  top: 0.75rem;
+}
+
 .top-32 {
   top: 8rem;
 }
@@ -788,16 +792,20 @@ video {
   width: 6rem;
 }
 
-.w-3\/4 {
-  width: 75%;
-}
-
 .w-4 {
   width: 1rem;
 }
 
 .w-5\/6 {
   width: 83.333333%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[2\/3\] {
+  width: 2/3;
 }
 
 .w-\[50rem\] {
@@ -1311,11 +1319,11 @@ video {
   }
 
   .wrapper{
-    left: 16rem;
+    left: 0;
   }
 
   .close{
-    left: 12rem;
+    left: 0;
   }
 }
 

@@ -89,9 +89,9 @@
         transition-delay: 0.2s;
     }
     .wrapper{
-        left: 16rem;
+        left: 0;
     }
     .close{
-        left: 12rem;
+        left: 0;
     }
 }
